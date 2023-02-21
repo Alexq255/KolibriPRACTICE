@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "792501731445",
+    "project_id": "kolibridb2",
+    "storage_bucket": "kolibridb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792501731445:android:64bdf7b0a0e27eece7f83c",
+        "android_client_info": {
+          "package_name": "com.example.kolibripractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792501731445-4fonusqot6blpeolea3otvj9e9uaimdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kolibripractice",
+            "certificate_hash": "62bbc0b7af4304bada9237dcc49aea77718c8e65"
+          }
+        },
+        {
+          "client_id": "792501731445-f6skb42humopg29q5ir0gf4bbt4b2rlg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHJLa0o5Q199izw1b_fss6cFuR61LIJRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792501731445-f6skb42humopg29q5ir0gf4bbt4b2rlg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
