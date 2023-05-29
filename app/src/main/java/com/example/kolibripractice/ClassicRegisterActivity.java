@@ -14,6 +14,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
@@ -254,4 +255,8 @@ public void init2(){
     }
 
 
+    public void reglic(View view) {
+        Intent intent = new Intent(ClassicRegisterActivity.this,Licenge.class);
+        startActivity(intent);
+    }
 }

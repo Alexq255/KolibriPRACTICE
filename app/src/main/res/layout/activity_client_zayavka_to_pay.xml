@@ -5,30 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFC107"
-    tools:context=".LoadingScreen">
+    tools:context=".ClientZayavkaToPay">
 
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="174dp"
-        android:layout_height="190dp"
-        android:foregroundGravity="clip_horizontal"
+    <ListView
+        android:id="@+id/aclist3"
+        android:layout_width="415dp"
+        android:layout_height="665dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432"
-        app:srcCompat="@drawable/icon" />
+        app:layout_constraintVertical_bias="0.757" />
 
-    <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="134dp"
-        android:layout_height="119dp"
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="390dp"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:text="Ваши заявки"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.007" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

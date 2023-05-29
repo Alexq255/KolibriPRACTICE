@@ -104,4 +104,8 @@ private FirebaseFirestore fstore;
     }
 
 
+    public void Classic(View view) {
+        Intent intent = new Intent(LoginActivity.this, ClassicRegisterActivity.class);
+        startActivity(intent);
+    }
 }

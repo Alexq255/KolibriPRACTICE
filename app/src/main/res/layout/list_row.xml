@@ -26,9 +26,9 @@
         android:layout_toRightOf="@id/image"
         android:layout_marginLeft="20dp"
 
-        android:maxLines="2"
-        android:maxLength="50"
-        android:singleLine="true"
+        android:maxLines="3"
+        android:maxLength="120"
+        android:singleLine="false"
 
 
         android:layout_below="@id/txtName"

@@ -38,4 +38,6 @@ public class AdapterList extends ArrayAdapter<Actions>
 
 
     }
+
+
 }

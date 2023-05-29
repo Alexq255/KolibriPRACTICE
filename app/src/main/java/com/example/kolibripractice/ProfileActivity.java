@@ -51,6 +51,7 @@ public class ProfileActivity extends AppCompatActivity {
     private Button updBtn;
     private String url;
 
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,6 +87,7 @@ public class ProfileActivity extends AppCompatActivity {
         init();
         updateData();
         hide();
+        updBtn.setEnabled(false);
 
 
     }
@@ -447,6 +449,7 @@ public class ProfileActivity extends AppCompatActivity {
     public void EditStart(View view) {
         unhide();
         uploadImage();
+        updBtn.setEnabled(true);
 
     }
     public void UpdIm(View view) {
@@ -454,6 +457,10 @@ public class ProfileActivity extends AppCompatActivity {
 
     }
 
+    public void createPass(View view) {
+        Intent intent = new Intent(ProfileActivity.this,passwordActivity.class);
+        startActivity(intent);
+    }
 }
 
 
